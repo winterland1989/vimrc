@@ -1,0 +1,4 @@
+undodir/*
+tags
+.DS_Store
+plugins/**
