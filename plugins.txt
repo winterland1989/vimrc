@@ -1,6 +1,7 @@
 ag.vim https://github.com/rking/ag.vim/archive/master.zip
 bufexplorer https://github.com/corntrace/bufexplorer/archive/master.zip
 ctrlp.vim https://github.com/kien/ctrlp.vim/archive/master.zip
+ghcmod-vim https://github.com/eagletmt/ghcmod-vim/archive/master.zip
 gruvbox https://github.com/morhetz/gruvbox/archive/master.zip
 hlint-refactor-vim https://github.com/mpickering/hlint-refactor-vim/archive/master.zip
 neco-ghc https://github.com/eagletmt/neco-ghc/archive/master.zip
