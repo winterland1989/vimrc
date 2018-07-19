@@ -21,5 +21,6 @@ vim-indent-object https://github.com/michaeljsmith/vim-indent-object/archive/mas
 vim-less https://github.com/groenewege/vim-less/archive/master.zip
 vim-markdown https://github.com/tpope/vim-markdown/archive/master.zip
 vim-multiple-cursors https://github.com/terryma/vim-multiple-cursors/archive/master.zip
+vimproc.vim  https://github.com/Shougo/vimproc.vim/archive/master.zip
 vim-repeat https://github.com/tpope/vim-repeat/archive/master.zip
 vim-surround https://github.com/tpope/vim-surround/archive/master.zip
