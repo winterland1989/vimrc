@@ -33,6 +33,9 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" Show row number
+set number
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -330,6 +333,10 @@ map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
+
+" Set LC_ALL
+:let $LC_CTYPE = "en_US.UTF-8"
+:let $LC_ALL = "en_US.UTF-8"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

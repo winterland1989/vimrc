@@ -228,3 +228,19 @@ elseif &filetype == 'matlab'
     exec "!time octave %"
 endif
 endfunc
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Quickly switch colorscheme and background
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:colors = getcompletion('', 'color')
+func! NextColors()
+    let idx = index(g:colors, g:colors_name)
+    return (idx + 1 >= len(g:colors) ? g:colors[0] : g:colors[idx + 1])
+endfunc
+func! PrevColors()
+    let idx = index(g:colors, g:colors_name)
+    return (idx - 1 < 0 ? g:colors[-1] : g:colors[idx - 1])
+endfunc
+nnoremap <C-l>+ :exe "colo " .. NextColors()<CR>
+nnoremap <C-l>- :exe "colo " .. PrevColors()<CR>
+nnoremap <C-l> :let &bg=(&bg=='light'?'dark':'light')<cr>
