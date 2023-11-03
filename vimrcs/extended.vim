@@ -241,6 +241,6 @@ func! PrevColors()
     let idx = index(g:colors, g:colors_name)
     return (idx - 1 < 0 ? g:colors[-1] : g:colors[idx - 1])
 endfunc
-nnoremap <C-l>+ :exe "colo " .. NextColors()<CR>
-nnoremap <C-l>- :exe "colo " .. PrevColors()<CR>
-nnoremap <C-l> :let &bg=(&bg=='light'?'dark':'light')<cr>
+nnoremap <C-_>+ :exe "colo " .. NextColors()<CR>
+nnoremap <C-_>- :exe "colo " .. PrevColors()<CR>
+nnoremap <C-_> :let &bg=(&bg=='light'?'dark':'light')<cr>
